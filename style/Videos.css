@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Ruslan Display", cursive;
+  color: blue;
+  background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
+  padding: 20px 40px 30px 400px;
+  justify-content: center;
+}
+body {
+  background: whitesmoke;
+  font-size: 1.6rem;
+}
+p {
+  color: blue;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+}
+.menu {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.menu ul {
+  display: flex;
+  margin: auto;
+}
+.menu li {
+  list-style: none;
+}
+
+.padre-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}

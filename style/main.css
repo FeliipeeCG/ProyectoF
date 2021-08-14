@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
+  padding: 20px 40px 30px 400px;
+  font-family: "Uchen", serif;
+}
+h2 {
+  text-align: center;
+  font-size: 3.2rem;
+}
+h3 {
+  color: rgb(129, 9, 226);
+}
+.videosRDD {
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+.charlemosUR {
+  color: green;
+}
+.datosDC {
+  color: indigo;
+}
+.integrantes {
+  color: rgb(88, 4, 4);
+}
+p {
+  font-size: 3.1rem;
+  text-align: justify;
+  color: rgb(92, 24, 24);
+}
+body {
+  background-color: black;
+  font-size: 1.6rem;
+}
+td {
+  color: rgb(255, 255, 255);
+}
+.italica {
+  font-style: italic;
+  font-size: 4rem;
+}
+.arial {
+  font-style: oblique;
+  font-size: 4rem;
+  font-weight: bolder;
+  border: dashed rgb(126, 17, 17);
+  width: 1285px;
+}
+.h2__integrantes {
+  text-align: start;
+}
+.p__Verde {
+  color: rgb(5, 148, 12);
+}
+.p__Gris {
+  color: rgb(60, 92, 151);
+}
+.p__Violeta {
+  color: rgb(99, 6, 99);
+}
+.p__Azul {
+  color: blue;
+}
+.canalTw {
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(85%, -20%);
+}
+.logo {
+  position: absolute;
+  transform: translate(1%, -127%);
+}
+#menu {
+  background-color: black;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  color: whitesmoke;
+  padding: 20px 80px;
+  display: block;
+  text-decoration: none;
+}
+#menu ul li a:hover {
+  background: rgb(117, 7, 7);
+}

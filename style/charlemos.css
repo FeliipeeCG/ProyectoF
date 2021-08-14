@@ -1,0 +1,18 @@
+h1 {
+  font-family: "Yomogi", cursive;
+  color: green;
+  background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
+  padding: 10px 10px 10px 100px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: 1.6rem;
+}
+p {
+  color: rgb(5, 148, 12);
+}
+form {
+  background-color: rgb(126, 31, 31);
+}

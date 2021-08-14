@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    },
+    {
+      "path": "..\\CLASE_2_Y_3"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": ".vscode"
+  }
+}

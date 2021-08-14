@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="imagenes/styles/main.css">
+    <link rel="stylesheet" href="/TDS/style/charlemos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <title>Charlemos</title>
+  </head>
+  <body>
+  <header>
+    <h1>Participa y ayudanos en los proximos videos</h1>
+  </header>
+    <p>Nos interesa saber tu opinion y que es lo que te interesaria ver en los proximos Streams, asi que completa esta pequeña encuesta :3</p>
+    <form>
+      <fieldset>
+        <legend>REGISTRO</legend>
+        <div>
+          <label for="user">Usuario </label>
+          <br />
+          <input type="text" id="user" name="user" />
+        </div>
+        <br />
+        <div>
+          <label for="email">correo electronico</label>
+          <br />
+          <input type="email" id="email" name="email" />
+        </div>
+        <br />
+        <div>
+          <label for="password">contraseña</label>
+          <br />
+          <input type="password" id="password" name="password" />
+        </div>
+        <br />
+        <fieldset>
+  <legend>GENERO</legend>
+  <div>
+    <br />
+    <label for="femenino">femenino</label>
+    <input type="radio" id="femenino" name="genero" value="fem" />
+    <br />
+    <label for="masculino">masculino</label>
+    <input type="radio" id="masculino" name="genero" value="masc" />
+    <br />
+    <label for="otro">Otro</label>
+    <input type="radio" id="otro" name="genero" value="otro" />
+  </fieldset>
+          <br />
+          <br />
+          
+            <fieldset>
+              <legend>Estuviste en el ultimo directo?</legend>
+              <select name="Estuviste en el ultimo directo">
+                <option value="Si">Obvio</option>
+                <option value="No">No pude</option>
+              </select>
+            </fieldset>
+          
+          <br />
+          
+            <fieldset>
+              <legend>Te gustó el ultimo directo?</legend>
+              <select name="Te gustó el ultimo directo">
+                <option value="Si">Estuvo bueno</option>
+                <option value="NoMucho">Estuvo medio flojo</option>
+                <option value="No">No me gusto</option>
+                <option value="NoEstuve">No lo pude ver</option>
+              </select>
+            </fieldset>
+          
+          <br />
+                      <fieldset>
+              <legend>El Proximo Directo tiene que ser de......</legend>
+              <select name="ProximoTema">
+                <option value="SuperHeroes">Alguna Peli de SuperHeroes</option>
+                <option value="Teatro">Alguna recomendacion teatral</option>
+                <option value="TemaMomentario">
+                  Lo mas picante de la semana
+                </option>
+              </select>
+            </fieldset>
+            <br />
+        </div>
+        <br />
+        <div>Acepto enviar este formulario</div>
+        <input type="checkbox" name="acepto" value="1">
+        <input type="submit" value="Send"  />
+      </fieldset>
+    </form>
+    <br />
+    <a href="/TDS/index.html"
+      ><img src="/TDS/images/ATRAS.png" width="200" height="100" alt="volvamos al menu"
+    /></a>
+  </body>
+</html>
