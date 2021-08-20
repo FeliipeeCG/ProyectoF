@@ -1,10 +1,10 @@
-h1 {
+.titulo {
   font-family: "Yomogi", cursive;
   color: green;
   background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
-  padding: 10px 10px 10px 100px;
+  text-align: center;
 }
-body {
+.cuerpo {
   margin: 0;
   padding: 0;
   background-color: black;
