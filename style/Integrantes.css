@@ -5,7 +5,7 @@ html {
 h1 {
   color: rgb(255, 255, 255);
   background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
-  padding: 10px 40px 30px 400px;
+  text-align: center;
   font-family: "Tourney", cursive;
   font-size: 5rem;
 }
@@ -24,7 +24,7 @@ p {
 .grid {
   display: grid;
   background: url(/TDS/images/Cantinero.png) center;
-  width: 1200px;
+  width: 1100px;
   height: 1000px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 15px solid rgba(0, 0, 0, 0.418);
