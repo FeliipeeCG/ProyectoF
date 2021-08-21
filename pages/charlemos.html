@@ -4,94 +4,127 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="imagenes/styles/main.css">
-    <link rel="stylesheet" href="/TDS/style/charlemos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="imagenes/styles/main.css" />
+    <link rel="stylesheet" href="/TDS/style/charlemos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap"
+      rel="stylesheet"
+    />
     <title>Charlemos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="cuerpo">
-  <header>
-    <h1 class="titulo">Participa y ayudanos en los proximos videos</h1>
-  </header>
-    <p>Nos interesa saber tu opinion y que es lo que te interesaria ver en los proximos Streams, asi que completa esta pequeña encuesta :3</p>
+    <header>
+      <h1 class="titulo">Participa y ayudanos en los proximos videos</h1>
+    </header>
+    <p>
+      Nos interesa saber tu opinion y que es lo que te interesaria ver en los
+      proximos Streams, asi que completa esta pequeña encuesta :3
+    </p>
     <form>
-      <fieldset>
+      <div class="container">
         <legend>REGISTRO</legend>
-        <div class="container">
-          <div class="row">
-            <label for="user" class="col-sn-4 col-md-4 col-lg-4">Usuario </label>
-            <input type="text" id="user" name="user" />
-            <label for="email" class="col-sn-4 col-md-4 col-lg-4">correo electronico</label>
-            <input type="email" id="email" name="email" />
-            <label for="password" class="col-sn-4 col-md-4 col-lg-4">contraseña</label>
-            <input type="password" id="password" name="password" />
-          </div>
+        <div class="row">
+          <label for="user" class="col-sn-6 col-md-6 col-lg-6">Usuario </label>
+          <input
+            type="text"
+            class="col-sn-6 col-md-6 col-lg-6"
+            id="user"
+            name="user"
+          />
+          <label for="email" class="col-sn-4 col-md-4 col-lg-6"
+            >correo electronico</label
+          >
+          <input type="email" class="col-sn-6 col-md-6 col-lg-6 id="email"
+          name="email" />
+          <label for="password" class="col-sn-4 col-md-4 col-lg-6"
+            >contraseña</label
+          >
+          <input type="password" class="col-sn-6 col-md-6 col-lg-6 id="password"
+          name="password" />
         </div>
-        <br />
+      </div>
+      <br />
+
+      <div class="container">
         <fieldset>
-  <legend>GENERO</legend>
-  <div>
-    <br />
-    <label for="femenino">femenino</label>
-    <input type="radio" id="femenino" name="genero" value="fem" />
-    <br />
-    <label for="masculino">masculino</label>
-    <input type="radio" id="masculino" name="genero" value="masc" />
-    <br />
-    <label for="otro">Otro</label>
-    <input type="radio" id="otro" name="genero" value="otro" />
-  </fieldset>
+          <legend>GENERO</legend>
+          <label for="femenino">femenino</label>
+          <input type="radio" id="femenino" name="genero" value="fem" />
           <br />
+          <label for="masculino">masculino</label>
+          <input type="radio" id="masculino" name="genero" value="masc" />
           <br />
-          
-            <fieldset>
-              <legend>Estuviste en el ultimo directo?</legend>
-              <select name="Estuviste en el ultimo directo">
-                <option value="Si">Obvio</option>
-                <option value="No">No pude</option>
-              </select>
-            </fieldset>
-          
-          <br />
-          
-            <fieldset>
-              <legend>Te gustó el ultimo directo?</legend>
-              <select name="Te gustó el ultimo directo">
-                <option value="Si">Estuvo bueno</option>
-                <option value="NoMucho">Estuvo medio flojo</option>
-                <option value="No">No me gusto</option>
-                <option value="NoEstuve">No lo pude ver</option>
-              </select>
-            </fieldset>
-          
-          <br />
-                      <fieldset>
-              <legend>El Proximo Directo tiene que ser de......</legend>
-              <select name="ProximoTema">
-                <option value="SuperHeroes">Alguna Peli de SuperHeroes</option>
-                <option value="Teatro">Alguna recomendacion teatral</option>
-                <option value="TemaMomentario">
-                  Lo mas picante de la semana
-                </option>
-              </select>
-            </fieldset>
-            <br />
+          <label for="otro">Otro</label>
+          <input type="radio" id="otro" name="genero" value="otro" />
+        </fieldset>
+      </div>
+      <br />
+      <div class="container">
+        <legend>Estuviste en el ultimo directo?</legend>
+        <div class="row">
+          <select name="Estuviste en el ultimo directo">
+            <option value="Si">Obvio</option>
+            <option value="No">No pude</option>
+          </select>
         </div>
         <br />
-        <div>Acepto enviar este formulario</div>
-        <input type="checkbox" name="acepto" value="1">
-        <input type="submit" value="Send"  />
-      </fieldset>
+
+        <legend>Te gustó el ultimo directo?</legend>
+        <div class="row">
+          <select name="Te gustó el ultimo directo">
+            <option value="Si">Estuvo bueno</option>
+            <option value="NoMucho">Estuvo medio flojo</option>
+            <option value="No">No me gusto</option>
+            <option value="NoEstuve">No lo pude ver</option>
+          </select>
+        </div>
+        <br />
+
+        <legend>El Proximo Directo tiene que ser de......</legend>
+        <div class="row">
+          <select name="ProximoTema">
+            <option value="SuperHeroes">Alguna Peli de SuperHeroes</option>
+            <option value="Teatro">Alguna recomendacion teatral</option>
+            <option value="TemaMomentario">Lo mas picante de la semana</option>
+          </select>
+        </div>
+        <br />
+      </div>
+      <br />
+      <div>Acepto enviar este formulario</div>
+      <input type="checkbox" name="acepto" value="1" />
+      <input type="submit" value="Send" />
     </form>
     <br />
     <a href="/TDS/index.html"
-      ><img src="/TDS/images/ATRAS.png" width="200" height="100" alt="volvamos al menu"
+      ><img
+        src="/TDS/images/ATRAS.png"
+        width="200"
+        height="100"
+        alt="volvamos al menu"
     /></a>
   </body>
 </html>
