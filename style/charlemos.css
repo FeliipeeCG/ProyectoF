@@ -17,3 +17,10 @@ form {
   background-color: rgba(0, 0, 0, 0.137);
   color: whitesmoke;
 }
+h3 {
+  color: rgb(51, 5, 5);
+}
+.modal-body {
+  color: whitesmoke;
+  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+}

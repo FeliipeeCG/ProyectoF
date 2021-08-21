@@ -85,43 +85,97 @@
         </fieldset>
       </div>
       <br />
-      <div class="container">
-        <legend>Estuviste en el ultimo directo?</legend>
-        <div class="row">
-          <select name="Estuviste en el ultimo directo">
-            <option value="Si">Obvio</option>
-            <option value="No">No pude</option>
-          </select>
-        </div>
-        <br />
 
-        <legend>Te gustó el ultimo directo?</legend>
-        <div class="row">
-          <select name="Te gustó el ultimo directo">
-            <option value="Si">Estuvo bueno</option>
-            <option value="NoMucho">Estuvo medio flojo</option>
-            <option value="No">No me gusto</option>
-            <option value="NoEstuve">No lo pude ver</option>
-          </select>
-        </div>
-        <br />
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Preguntas Rapidas
+      </button>
 
-        <legend>El Proximo Directo tiene que ser de......</legend>
-        <div class="row">
-          <select name="ProximoTema">
-            <option value="SuperHeroes">Alguna Peli de SuperHeroes</option>
-            <option value="Teatro">Alguna recomendacion teatral</option>
-            <option value="TemaMomentario">Lo mas picante de la semana</option>
-          </select>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="staticBackdropLabel">
+                Preguntas Rapidas
+              </h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+
+              <div class="container">
+                <legend>Estuviste en el ultimo directo?</legend>
+                <div class="row">
+                  <select name="Estuviste en el ultimo directo">
+                    <option value="Si">Obvio</option>
+                    <option value="No">No pude</option>
+                  </select>
+                </div>
+                <br />
+        
+                <legend>Te gustó el ultimo directo?</legend>
+                <div class="row">
+                  <select name="Te gustó el ultimo directo">
+                    <option value="Si">Estuvo bueno</option>
+                    <option value="NoMucho">Estuvo medio flojo</option>
+                    <option value="No">No me gusto</option>
+                    <option value="NoEstuve">No lo pude ver</option>
+                  </select>
+                </div>
+                <br />
+        
+                <legend>El Proximo Directo tiene que ser de......</legend>
+                <div class="row">
+                  <select name="ProximoTema">
+                    <option value="SuperHeroes">Alguna Peli de SuperHeroes</option>
+                    <option value="Teatro">Alguna recomendacion teatral</option>
+                    <option value="TemaMomentario">Lo mas picante de la semana</option>
+                  </select>
+                </div>
+                <br />
+              </div>
+              <br />
+              <div class="container">Acepto enviar este formulario
+                <input type="checkbox" name="acepto" value="1" />
+              </div>
+            </form>
+
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button type="button" class="btn btn-primary">
+                <input type="submit" value="Send" />
+              </button>
+            </div>
+          </div>
         </div>
-        <br />
       </div>
-      <br />
-      <div class="container">Acepto enviar este formulario</div>
-      <input type="checkbox" name="acepto" value="1" />
-      <input type="submit" value="Send" />
-    </form>
-    <br />
+<br>
+<br>
     <footer>
       <div class="container">
         <a href="/TDS/index.html"
