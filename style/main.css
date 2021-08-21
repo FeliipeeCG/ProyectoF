@@ -13,7 +13,7 @@ h2 {
   font-size: 3.2rem;
 }
 h3 {
-  color: rgb(129, 9, 226);
+  color: rgb(51, 5, 5);
 }
 .videosRDD {
   margin: 0;
@@ -95,4 +95,8 @@ td {
 }
 #menu ul li a:hover {
   background: rgb(117, 7, 7);
+}
+.modal-body {
+  color: whitesmoke;
+  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
 }
