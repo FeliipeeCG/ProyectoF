@@ -46,15 +46,53 @@
         </div>
       </nav>
       <div class="dropdown d-md-none">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Lista de videos
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/shyvana.html">shyvana</a></li>
-          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/pyke.html">pyke</a></li>
-          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/zed.html">zed</a></li>
-          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/problemasT.html">problemasT</a></li>
-        </ul>
+        <button
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#staticBackdrop"
+>
+  Videos Resubidos
+</button>
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="staticBackdropLabel">Videos Resubidos</h3>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="/TDS/pages/Videos resubidos/shyvana.html">Shyvana 3vs5</a>
+            </li>
+            <li><a href="/TDS/pages/Videos resubidos/pyke.html">Pyke R casi perfectas</a></li>
+            <li><a href="/TDS/pages/Videos resubidos/zed.html">Zed el mejor ninja</a></li>
+            <li>
+              <a href="/TDS/pages/Videos resubidos/problemasT.html"
+                >Problemas Tecnicos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
       </div> 
     </div>
       <br>
