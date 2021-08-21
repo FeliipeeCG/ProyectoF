@@ -30,7 +30,6 @@ h3 {
   color: rgb(88, 4, 4);
 }
 p {
-  font-size: 3.1rem;
   text-align: justify;
   color: rgb(231, 219, 219);
 }
@@ -48,7 +47,7 @@ td {
 }
 .arial {
   font-style: oblique;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bolder;
   border: dashed rgb(126, 17, 17);
 }

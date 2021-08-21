@@ -35,9 +35,9 @@
     <header>
       <div class="container">
         <h1 class="italica"> Videos Resubidos</h1>
-        <div id="menu" >
-          <nav>        
-            <ul style="color: rgba(139, 9, 245, 0.952);"> 
+        <div id="menu" class="menu">
+          <nav class="d-none d-md-block  justify-content-between">        
+            <ul> 
               <li><a href="/TDS/pages/Videos resubidos/shyvana.html">SHYVANA</a> </li>
             <li><a href="/TDS/pages/Videos resubidos/pyke.html">PYKE</a></li>
             <li><a href="/TDS/pages/Videos resubidos/zed.html">ZED</a></li>
@@ -45,12 +45,54 @@
           </ul>
         </div>
       </nav>
+      <div class="dropdown d-md-none">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Lista de videos
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/shyvana.html">shyvana</a></li>
+          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/pyke.html">pyke</a></li>
+          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/zed.html">zed</a></li>
+          <li><a class="dropdown-item" href="/TDS/pages/Videos resubidos/problemasT.html">problemasT</a></li>
+        </ul>
+      </div> 
+    </div>
+      <br>
     </header>
     <div class="container">
         <p class="arial">
-        Si no pudiste estar en el directo, aca te dejamos los mejores momentos/ jugadas para que las puedas disfrutar
-      </p>
-      <img src="/TDS/images/taberna.jpeg"width="100%" height="80%" alt="taberna">
+          Si no pudiste estar en el directo, aca te dejamos los mejores momentos/ jugadas para que las puedas disfrutar
+        </p>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+          <div class="carousel-item" data-bs-interval="100">
+            <img src="https://www.leaguewallpapers.com/assets/images/original/mossawi_323349689133_20161112220234_205045206937.png" class="d-block w-100" alt="shyvana">
+          </div>
+          <div class="carousel-item" data-bs-interval="100">
+            <img src="https://i.pinimg.com/originals/67/ed/60/67ed60c8624637e3bb779a85b35e2046.jpg" class="d-block w-100" alt="zed">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images5.alphacoders.com/983/983436.jpg " data-bs-interval="100"class="d-block w-100" alt="pyke">
+          </div>
+          <div class="carousel-item">
+            <img src="/TDS/images/La caja.jpg" data-bs-interval="100" height="500vh" class="d-block w-100" alt="charlas">
+          </div>
+          <div class="carousel-item active">
+            <img src="/TDS/images/taberna.jpeg" data-bs-interval="100" class="d-block w-100" alt="copitas">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      </div>
+
+
     </div>
     <footer>
       <div class="container">
