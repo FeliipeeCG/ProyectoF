@@ -21,7 +21,6 @@ h2 {
   font-size: 3.2rem;
   text-align: center;
 }
-
 td {
   color: rgb(99, 6, 99);
   font-size: 2rem;
@@ -34,7 +33,6 @@ p {
 body {
   background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
   font-size: 1.6rem;
-  width: 1300px;
 }
 
 .arial {
@@ -45,6 +43,7 @@ body {
 
 .p__Violeta {
   color: rgb(99, 6, 99);
+  font-size: 3.2rem;
 }
 
 .logo {
@@ -56,8 +55,9 @@ body {
   display: flex;
   background: url(/TDS/images/Cantinero.png) center;
   width: 1300px;
-  height: 1150px;
+  height: 940px;
   justify-content: space-around;
+  align-items: center;
   gap: 10px;
   border: 15px solid rgba(0, 0, 0, 0.418);
   cursor: grabbing;
@@ -90,7 +90,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
   border-radius: 20px;
-  transform: translate(-200%, -400%);
+  transform: translate(-1000%, -300%);
   transition: 0s;
 }
 .trago:hover .Integrantes {
@@ -105,7 +105,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
   border-radius: 20px;
-  transform: translate(-600%, -500%);
+  transform: translate(-1400%, -300%);
   transition: 0s;
 }
 .trago:hover .ListaDeVideos {
@@ -121,7 +121,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
   border-radius: 20px;
-  transform: translate(-250%, -300%);
+  transform: translate(-1000%, -300%);
   transition: 0s;
 }
 .trago:hover .canalTw {
