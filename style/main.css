@@ -35,7 +35,8 @@ p {
   color: rgb(92, 24, 24);
 }
 body {
-  background-color: black;
+  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+  min-height: 100vh;
   font-size: 1.6rem;
 }
 td {
