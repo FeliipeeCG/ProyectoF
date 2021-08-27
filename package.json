@@ -1,0 +1,23 @@
+{
+  "name": "tds",
+  "version": "1.0.0",
+  "description": "ProyectoF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliipeeCG/ProyectoF.git"
+  },
+  "author": "Felipe CG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeliipeeCG/ProyectoF/issues"
+  },
+  "homepage": "https://github.com/FeliipeeCG/ProyectoF#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
