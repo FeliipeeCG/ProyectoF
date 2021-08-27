@@ -53,19 +53,20 @@ body {
 .grid {
   display: flex;
   background: url(/TDS/images/Cantinero.png) center;
-  width: 100%;
+  width: 95%;
   height: 950px;
   justify-content: space-between;
-  align-items: flex-end;
-  gap: 5px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  gap: 10px;
   border: 15px solid rgba(0, 0, 0, 0.418);
   cursor: grabbing;
 }
 /*Propiedades de los elementos*/
 .trago {
-  justify-self: center;
   align-self: flex-end;
-  align-items: flex-end;
+  align-items: center;
 }
 .trago__img {
   filter: none;
