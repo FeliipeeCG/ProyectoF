@@ -24,8 +24,8 @@ p {
 .grid {
   display: grid;
   background: url(/TDS/images/Cantinero.png) center;
-  width: 100%;
-  height: 1000px;
+  width: 95%;
+  height: 964px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 15px solid rgba(0, 0, 0, 0.418);
   justify-items: center;

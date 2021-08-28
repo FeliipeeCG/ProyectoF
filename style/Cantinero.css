@@ -17,27 +17,25 @@ h1 {
 h2 {
   color: rgb(255, 255, 255);
   font-family: "Uchen", serif;
-  font-size: 3.2rem;
+  font-style: italic;
+  font-size: 3.5rem;
   text-align: center;
+  border: dashed rgb(208, 223, 11);
 }
 td {
   color: rgb(99, 6, 99);
   font-size: 2rem;
 }
 p {
-  font-size: 3.1rem;
-  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  color: rgb(238, 230, 230);
+
+  font-weight: bolder;
 }
 /*Propiedades del body*/
 body {
   background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
   font-size: 1.6rem;
-}
-
-.arial {
-  font-size: 2rem;
-  font-weight: bolder;
-  border: dashed rgb(0, 17, 17);
 }
 
 .p__Violeta {
@@ -51,16 +49,14 @@ body {
 }
 /*Propiedades del grid*/
 .grid {
-  display: flex;
+  display: grid;
   background: url(/TDS/images/Cantinero.png) center;
   width: 95%;
-  height: 950px;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  gap: 10px;
+  height: 964px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 15px solid rgba(0, 0, 0, 0.418);
+  justify-items: center;
+  align-items: flex-end;
   cursor: grabbing;
 }
 /*Propiedades de los elementos*/
@@ -80,7 +76,7 @@ body {
   filter: saturate(5);
 }
 .trago:hover .Charlemos {
-  transform: translateY(-300px);
+  transform: translateY(300px);
 }
 
 .Charlemos {
