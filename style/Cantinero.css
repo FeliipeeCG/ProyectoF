@@ -1,8 +1,10 @@
 html {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(219, 163, 163);
   background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
   background-size: contain;
   background-repeat: round;
@@ -43,10 +45,6 @@ body {
   font-size: 3.2rem;
 }
 
-.logo {
-  position: absolute;
-  transform: translate(1%, -127%);
-}
 /*Propiedades del grid*/
 .grid {
   display: grid;
