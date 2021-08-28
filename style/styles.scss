@@ -1,13 +1,149 @@
-h1 {
-  color: rgb(255, 255, 255);
-  background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
-  text-align: center;
-  font-family: "Tourney", cursive;
-  font-size: 5rem;
-  background-size: contain;
-  background-repeat: round;
-  background-attachment: local;
-  padding: 20px 40px 30px;
-  overflow: hidden;
-  font-style: italic;
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+//body
+body {
+  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+  font-size: 1.6rem;
+}
+//Parrafo
+p {
+  font-size: 2rem;
+  color: rgb(238, 230, 230);
+  font-weight: bolder;
+}
+.p__Violeta {
+  color: rgb(99, 6, 99);
+  font-size: 3.2rem;
+}
+
+//Header
+.header {
+  display: flex;
+  &__h1 {
+    color: rgb(255, 255, 255);
+    background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
+    text-align: center;
+    font-family: "Tourney", cursive;
+    font-size: 4rem;
+    background-size: contain;
+    background-repeat: round;
+    background-attachment: local;
+    padding: 20px 40px 30px;
+    overflow: hidden;
+    font-style: italic;
+  }
+}
+
+//Container
+.container {
+  &__h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Uchen", serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    border: dashed rgb(208, 223, 11);
+  }
+  &__h3 {
+    color: rgb(51, 5, 5);
+  }
+}
+//TD
+td {
+  color: rgb(99, 6, 99);
+  font-size: 2rem;
+}
+/*Propiedades del grid*/
+.grid {
+  display: grid;
+  background: url(/TDS/images/Cantinero.png) center;
+  width: 95%;
+  height: 964px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 15px solid rgba(0, 0, 0, 0.418);
+  justify-items: center;
+  align-items: flex-end;
+  cursor: grabbing;
+}
+/*Propiedades de los elementos*/
+.trago {
+  align-self: flex-end;
+  align-items: center;
+  &__img {
+    filter: none;
+    transition: filter 1s, transform 1s;
+  }
+}
+/*Movimientos*/
+.trago:hover .trago__img {
+  transform: scale(1.2);
+  filter: saturate(5);
+}
+/*Cartas*/
+
+.Carta-derecho {
+  margin: 0;
+  justify-self: center;
+  align-self: flex-end;
+  filter: grayscale(1);
+}
+.Carta-derecho:hover {
+  transform: skew(10deg, 10deg);
+  padding: 20px;
+  filter: none;
+}
+.Carta-izquierdo {
+  margin: 0;
+  justify-self: center;
+  align-self: flex-end;
+  filter: grayscale(1);
+}
+.Carta-izquierdo:hover {
+  transform: skew(-10deg, -10deg);
+  padding: 20px;
+  filter: none;
+}
+
+//FORM
+form {
+  background-color: rgba(0, 0, 0, 0.137);
+  color: whitesmoke;
+}
+.modal-body {
+  color: whitesmoke;
+  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+}
+
+//menu de navegacion
+#menu {
+  background-color: black;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  color: whitesmoke;
+  padding: 20px 80px;
+  display: block;
+  text-decoration: none;
+}
+#menu ul li a:hover {
+  background: rgb(117, 7, 7);
+}
+.modal-body {
+  color: whitesmoke;
+  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+}
+.links {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.2rem;
 }

@@ -1,14 +1,190 @@
-h1 {
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #eee6e6;
+  font-weight: bolder;
+}
+
+.p__Violeta {
+  color: #630663;
+  font-size: 3.2rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__h1 {
   color: white;
   background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
   text-align: center;
   font-family: "Tourney", cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   background-size: contain;
   background-repeat: round;
   background-attachment: local;
   padding: 20px 40px 30px;
   overflow: hidden;
   font-style: italic;
+}
+
+.container__h2 {
+  color: white;
+  font-family: "Uchen", serif;
+  font-style: italic;
+  font-size: 3rem;
+  text-align: center;
+  border: dashed #d0df0b;
+}
+
+.container__h3 {
+  color: #330505;
+}
+
+td {
+  color: #630663;
+  font-size: 2rem;
+}
+
+/*Propiedades del grid*/
+.grid {
+  display: -ms-grid;
+  display: grid;
+  background: url(/TDS/images/Cantinero.png) center;
+  width: 95%;
+  height: 964px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 15px solid rgba(0, 0, 0, 0.418);
+  justify-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/*Propiedades de los elementos*/
+.trago {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trago__img {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transition: -webkit-filter 1s, -webkit-transform 1s;
+  transition: -webkit-filter 1s, -webkit-transform 1s;
+  transition: filter 1s, transform 1s;
+  transition: filter 1s, transform 1s, -webkit-filter 1s, -webkit-transform 1s;
+}
+
+/*Movimientos*/
+.trago:hover .trago__img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: saturate(5);
+          filter: saturate(5);
+}
+
+/*Cartas*/
+.Carta-derecho {
+  margin: 0;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.Carta-derecho:hover {
+  -webkit-transform: skew(10deg, 10deg);
+          transform: skew(10deg, 10deg);
+  padding: 20px;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.Carta-izquierdo {
+  margin: 0;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.Carta-izquierdo:hover {
+  -webkit-transform: skew(-10deg, -10deg);
+          transform: skew(-10deg, -10deg);
+  padding: 20px;
+  -webkit-filter: none;
+          filter: none;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.137);
+  color: whitesmoke;
+}
+
+.modal-body {
+  color: whitesmoke;
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
+}
+
+#menu {
+  background-color: black;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  color: whitesmoke;
+  padding: 20px 80px;
+  display: block;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  background: #750707;
+}
+
+.modal-body {
+  color: whitesmoke;
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
+}
+
+.links {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=styles.css.map */

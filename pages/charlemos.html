@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/TDS/style/charlemos.css" />
+    <link rel="stylesheet" href="/TDS/style/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,10 +34,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="cuerpo">
-    <header>
+  <body>
+    <header class="header">
       <div class="container">
-        <h1 class="titulo">Participa y ayudanos en los proximos videos</h1>
+        <h1 class="header__h1">Participa y ayudanos en los proximos videos</h1>
       </div>
     </header>
     <div class="container">
@@ -85,7 +85,6 @@
         </fieldset>
       </div>
       <br />
-
       <!-- Button trigger modal -->
       <button
         type="button"
@@ -109,7 +108,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="staticBackdropLabel">
+              <h3 class=" container__h3 modal-title" id="staticBackdropLabel">
                 Preguntas Rapidas
               </h3>
               <button
@@ -130,7 +129,6 @@
                   </select>
                 </div>
                 <br />
-        
                 <legend>Te gustó el ultimo directo?</legend>
                 <div class="row">
                   <select name="Te gustó el ultimo directo">
@@ -141,7 +139,6 @@
                   </select>
                 </div>
                 <br />
-        
                 <legend>El Proximo Directo tiene que ser de......</legend>
                 <div class="row">
                   <select name="ProximoTema">
@@ -157,9 +154,6 @@
                 <input type="checkbox" name="acepto" value="1" />
               </div>
             </form>
-
-
-
             </div>
             <div class="modal-footer">
               <button
