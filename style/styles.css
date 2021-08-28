@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(#130000));
-  background: linear-gradient(#330505, #130000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
   font-size: 1.6rem;
 }
 
@@ -147,12 +147,12 @@ form {
 
 .modal-body {
   color: #eee6e6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(#130000));
-  background: linear-gradient(#330505, #130000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
 }
 
 #menu {
-  background-color: #130000;
+  background-color: black;
 }
 
 #menu ul {
@@ -178,8 +178,8 @@ form {
 
 .modal-body {
   color: whitesmoke;
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(#130000));
-  background: linear-gradient(#330505, #130000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
 }
 
 .links {
