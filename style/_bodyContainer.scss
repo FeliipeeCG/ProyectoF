@@ -10,17 +10,6 @@ html {
   padding: 0;
 }
 
-//Parrafo
-p {
-  font-size: 2rem;
-  color: $color-primario;
-  font-weight: bolder;
-}
-.p__Violeta {
-  color: $violeta;
-  font-size: 3.2rem;
-}
-
 //Container
 .container {
   &__h2 {
@@ -32,6 +21,8 @@ p {
     border: dashed rgb(208, 223, 11);
   }
   &__h3 {
+    @extend .container__h2;
     color: $color-secundario;
+    border: none;
   }
 }

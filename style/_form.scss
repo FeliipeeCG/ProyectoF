@@ -4,6 +4,7 @@ form {
   color: $color-primario;
 }
 .modal-body {
-  color: $color-primario;
-  background: linear-gradient($color-secundario, $negro);
+  @extend form;
+  font-size: 2.5rem;
+  font-style: italic;
 }

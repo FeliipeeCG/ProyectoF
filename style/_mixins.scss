@@ -1,0 +1,12 @@
+//Parrafo
+p {
+  font-size: 2rem;
+  color: $color-primario;
+  font-weight: bolder;
+}
+//Extend
+.p__Violeta {
+  @extend p;
+  color: $violeta;
+  font-size: 4rem;
+}

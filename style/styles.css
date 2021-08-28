@@ -1,3 +1,14 @@
+p, .p__Violeta {
+  font-size: 2rem;
+  color: #eee6e6;
+  font-weight: bolder;
+}
+
+.p__Violeta {
+  color: #570379;
+  font-size: 4rem;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,18 +41,7 @@ html {
   padding: 0;
 }
 
-p {
-  font-size: 2rem;
-  color: #eee6e6;
-  font-weight: bolder;
-}
-
-.p__Violeta {
-  color: #570379;
-  font-size: 3.2rem;
-}
-
-.container__h2 {
+.container__h2, .container__h3 {
   color: #eee6e6;
   font-family: "Uchen", serif;
   font-style: italic;
@@ -52,6 +52,7 @@ p {
 
 .container__h3 {
   color: #330505;
+  border: none;
 }
 
 /*Propiedades del grid*/
@@ -177,14 +178,13 @@ td {
   font-size: 1.2rem;
 }
 
-form {
+form, .modal-body {
   background-color: rgba(0, 0, 0, 0.137);
   color: #eee6e6;
 }
 
 .modal-body {
-  color: #eee6e6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
-  background: linear-gradient(#330505, black);
+  font-size: 2.5rem;
+  font-style: italic;
 }
 /*# sourceMappingURL=styles.css.map */
