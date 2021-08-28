@@ -1,6 +1,7 @@
 $color-primario: rgb(238, 230, 230);
 $color-secundario: rgb(51, 5, 5);
 $negro: 333;
+$violeta: rgb(87, 3, 121);
 
 html {
   font-size: 62.5%;
@@ -9,17 +10,17 @@ html {
 }
 //body
 body {
-  background: linear-gradient($color-secundario, $color-primario);
+  background: linear-gradient($color-secundario, $negro);
   font-size: 1.6rem;
 }
 //Parrafo
 p {
   font-size: 2rem;
-  color: rgb(238, 230, 230);
+  color: $color-primario;
   font-weight: bolder;
 }
 .p__Violeta {
-  color: rgb(99, 6, 99);
+  color: $violeta;
   font-size: 3.2rem;
 }
 
@@ -27,7 +28,7 @@ p {
 .header {
   display: flex;
   &__h1 {
-    color: rgb(255, 255, 255);
+    color: $color-primario;
     background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
     text-align: center;
     font-family: "Tourney", cursive;
@@ -44,7 +45,7 @@ p {
 //Container
 .container {
   &__h2 {
-    color: rgb(255, 255, 255);
+    color: $color-primario;
     font-family: "Uchen", serif;
     font-style: italic;
     font-size: 3rem;
@@ -52,12 +53,12 @@ p {
     border: dashed rgb(208, 223, 11);
   }
   &__h3 {
-    color: rgb(51, 5, 5);
+    color: $color-secundario;
   }
 }
 //TD
 td {
-  color: rgb(99, 6, 99);
+  color: $violeta;
   font-size: 2rem;
 }
 /*Propiedades del grid*/
