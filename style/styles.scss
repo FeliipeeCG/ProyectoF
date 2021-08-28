@@ -115,16 +115,16 @@ td {
 //FORM
 form {
   background-color: rgba(0, 0, 0, 0.137);
-  color: whitesmoke;
+  color: $color-primario;
 }
 .modal-body {
-  color: whitesmoke;
-  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+  color: $color-primario;
+  background: linear-gradient($color-secundario, $negro);
 }
 
 //menu de navegacion
 #menu {
-  background-color: black;
+  background-color: $negro;
 }
 #menu ul {
   list-style: none;
@@ -135,18 +135,19 @@ form {
   display: inline-block;
 }
 #menu ul li a {
-  color: whitesmoke;
+  color: $color-primario;
   padding: 20px 80px;
   display: block;
   text-decoration: none;
 }
 #menu ul li a:hover {
-  background: rgb(117, 7, 7);
+  background: $color-secundario;
 }
 .modal-body {
   color: whitesmoke;
-  background: linear-gradient(rgb(51, 5, 5), rgb(0, 0, 0));
+  background: linear-gradient($color-secundario, $negro);
 }
+
 .links {
   color: yellow;
   text-decoration: none;
