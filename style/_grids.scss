@@ -1,0 +1,55 @@
+/*Propiedades del grid*/
+.grid {
+  display: grid;
+  background: url(/TDS/images/Cantinero.png) center;
+  width: 95%;
+  height: 964px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 15px solid rgba(0, 0, 0, 0.418);
+  justify-items: center;
+  align-items: flex-end;
+  cursor: grabbing;
+}
+/*Propiedades de los elementos*/
+.trago {
+  align-self: flex-end;
+  align-items: center;
+  &__img {
+    filter: none;
+    transition: filter 1s, transform 1s;
+  }
+}
+/*Movimientos*/
+.trago:hover .trago__img {
+  transform: scale(1.2);
+  filter: saturate(5);
+}
+/*Cartas*/
+
+.Carta-derecho {
+  margin: 0;
+  justify-self: center;
+  align-self: flex-end;
+  filter: grayscale(1);
+}
+.Carta-derecho:hover {
+  transform: skew(10deg, 10deg);
+  padding: 20px;
+  filter: none;
+}
+.Carta-izquierdo {
+  margin: 0;
+  justify-self: center;
+  align-self: flex-end;
+  filter: grayscale(1);
+}
+.Carta-izquierdo:hover {
+  transform: skew(-10deg, -10deg);
+  padding: 20px;
+  filter: none;
+}
+//TD
+td {
+  color: $violeta;
+  font-size: 2rem;
+}

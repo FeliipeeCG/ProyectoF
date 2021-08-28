@@ -1,0 +1,9 @@
+//FORM
+form {
+  background-color: rgba(0, 0, 0, 0.137);
+  color: $color-primario;
+}
+.modal-body {
+  color: $color-primario;
+  background: linear-gradient($color-secundario, $negro);
+}

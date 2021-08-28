@@ -1,0 +1,17 @@
+//Header
+.header {
+  display: flex;
+  &__h1 {
+    color: $color-primario;
+    background-image: url(https://thumbs.gfycat.com/EntirePeriodicBear-size_restricted.gif);
+    text-align: center;
+    font-family: "Tourney", cursive;
+    font-size: 4rem;
+    background-size: contain;
+    background-repeat: round;
+    background-attachment: local;
+    padding: 20px 40px 30px;
+    overflow: hidden;
+    font-style: italic;
+  }
+}

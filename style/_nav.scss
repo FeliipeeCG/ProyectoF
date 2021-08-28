@@ -1,0 +1,31 @@
+//menu de navegacion
+#menu {
+  background-color: $negro;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  color: $color-primario;
+  padding: 20px 80px;
+  display: block;
+  text-decoration: none;
+}
+#menu ul li a:hover {
+  background: $color-secundario;
+}
+.modal-body {
+  color: whitesmoke;
+  background: linear-gradient($color-secundario, $negro);
+}
+
+.links {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

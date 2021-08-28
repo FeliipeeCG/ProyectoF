@@ -1,0 +1,37 @@
+//Body
+body {
+  background: linear-gradient($color-secundario, $negro);
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+//Parrafo
+p {
+  font-size: 2rem;
+  color: $color-primario;
+  font-weight: bolder;
+}
+.p__Violeta {
+  color: $violeta;
+  font-size: 3.2rem;
+}
+
+//Container
+.container {
+  &__h2 {
+    color: $color-primario;
+    font-family: "Uchen", serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    border: dashed rgb(208, 223, 11);
+  }
+  &__h3 {
+    color: $color-secundario;
+  }
+}

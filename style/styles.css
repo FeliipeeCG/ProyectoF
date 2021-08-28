@@ -1,26 +1,3 @@
-html {
-  font-size: 62.5%;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
-  background: linear-gradient(#330505, black);
-  font-size: 1.6rem;
-}
-
-p {
-  font-size: 2rem;
-  color: #eee6e6;
-  font-weight: bolder;
-}
-
-.p__Violeta {
-  color: #570379;
-  font-size: 3.2rem;
-}
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,6 +18,29 @@ p {
   font-style: italic;
 }
 
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 2rem;
+  color: #eee6e6;
+  font-weight: bolder;
+}
+
+.p__Violeta {
+  color: #570379;
+  font-size: 3.2rem;
+}
+
 .container__h2 {
   color: #eee6e6;
   font-family: "Uchen", serif;
@@ -52,11 +52,6 @@ p {
 
 .container__h3 {
   color: #330505;
-}
-
-td {
-  color: #570379;
-  font-size: 2rem;
 }
 
 /*Propiedades del grid*/
@@ -140,15 +135,9 @@ td {
           filter: none;
 }
 
-form {
-  background-color: rgba(0, 0, 0, 0.137);
-  color: #eee6e6;
-}
-
-.modal-body {
-  color: #eee6e6;
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
-  background: linear-gradient(#330505, black);
+td {
+  color: #570379;
+  font-size: 2rem;
 }
 
 #menu {
@@ -186,5 +175,16 @@ form {
   color: yellow;
   text-decoration: none;
   font-size: 1.2rem;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.137);
+  color: #eee6e6;
+}
+
+.modal-body {
+  color: #eee6e6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: linear-gradient(#330505, black);
 }
 /*# sourceMappingURL=styles.css.map */
