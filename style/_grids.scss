@@ -1,7 +1,7 @@
 /*Propiedades del grid*/
 .grid {
   display: grid;
-  background: url(/TDS/images/Cantinero.png) center;
+  background-image: url(/TDS/images/Cantinero.png);
   width: 95%;
   height: 964px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
