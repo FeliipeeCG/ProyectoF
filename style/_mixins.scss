@@ -1,5 +1,4 @@
-$root-size: 2rem;
-
+$root-size: 2px;
 //Parrafo
 p {
   font-size: 2rem;
@@ -14,4 +13,8 @@ p {
 }
 .p__Azul {
   font-size: $root-size * 3;
+}
+//Condicional
+@if $root-size == 4px {
+  color: rgb(168, 3, 233);
 }
