@@ -15,7 +15,7 @@ p {
 .p__Azul {
   font-size: $root-size * 2;
   @if $root-size == 4px {
-    color: rgb(168, 3, 233);
+    color: rgb(158, 8, 218);
   } @else if $root-size == 6px {
     color: rgb(182, 75, 224);
   } @else if $root-size == 8px {
