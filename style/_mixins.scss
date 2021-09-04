@@ -1,12 +1,17 @@
+$root-size: 2rem;
+
 //Parrafo
 p {
   font-size: 2rem;
   color: $color-primario;
   font-weight: bolder;
 }
-//Extend
+//Extend y Operaciones
 .p__Violeta {
   @extend p;
   color: $violeta;
-  font-size: 4rem;
+  font-size: 2 * $root-size;
+}
+.p__Azul {
+  font-size: $root-size * 3;
 }
