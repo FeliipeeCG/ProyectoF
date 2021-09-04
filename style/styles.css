@@ -63,7 +63,7 @@ html {
 .grid {
   display: -ms-grid;
   display: grid;
-  background: url(../images/Cantinero.png);
+  background: url(../images/Cantinero.png) center;
   width: 95%;
   height: 964px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
