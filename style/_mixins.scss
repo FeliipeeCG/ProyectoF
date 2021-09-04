@@ -11,10 +11,14 @@ p {
   color: $violeta;
   font-size: 2 * $root-size;
 }
-.p__Azul {
-  font-size: $root-size * 3;
-}
 //Condicional
-@if $root-size == 4px {
-  color: rgb(168, 3, 233);
+.p__Azul {
+  font-size: $root-size * 2;
+  @if $root-size == 4px {
+    color: rgb(168, 3, 233);
+  } @else if $root-size == 6px {
+    color: rgb(182, 75, 224);
+  } @else if $root-size == 8px {
+    color: rgba(183, 0, 255, 0.938);
+  }
 }
