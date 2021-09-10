@@ -1,4 +1,5 @@
-p, .p__Violeta {
+p,
+.p__Violeta {
   font-size: 2rem;
   color: #eee6e6;
   font-weight: bolder;
@@ -34,7 +35,13 @@ p, .p__Violeta {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#330505),
+    to(black)
+  );
   background: linear-gradient(#330505, black);
   font-size: 1.6rem;
 }
@@ -45,7 +52,8 @@ html {
   padding: 0;
 }
 
-.container__h2, .container__h3 {
+.container__h2,
+.container__h3 {
   color: #eee6e6;
   font-family: "Uchen", serif;
   font-style: italic;
@@ -67,12 +75,12 @@ html {
   width: 95%;
   height: 964px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 15px solid rgba(0, 0, 0, 0.418);
   justify-items: center;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
@@ -80,15 +88,15 @@ html {
 /*Propiedades de los elementos*/
 .trago {
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .trago__img {
   -webkit-filter: none;
-          filter: none;
+  filter: none;
   -webkit-transition: -webkit-filter 1s, -webkit-transform 1s;
   transition: -webkit-filter 1s, -webkit-transform 1s;
   transition: filter 1s, transform 1s;
@@ -98,46 +106,46 @@ html {
 /*Movimientos*/
 .trago:hover .trago__img {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-filter: saturate(5);
-          filter: saturate(5);
+  filter: saturate(5);
 }
 
 /*Cartas*/
 .Carta-derecho {
   margin: 0;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .Carta-derecho:hover {
   -webkit-transform: skew(10deg, 10deg);
-          transform: skew(10deg, 10deg);
+  transform: skew(10deg, 10deg);
   padding: 20px;
   -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 
 .Carta-izquierdo {
   margin: 0;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .Carta-izquierdo:hover {
   -webkit-transform: skew(-10deg, -10deg);
-          transform: skew(-10deg, -10deg);
+  transform: skew(-10deg, -10deg);
   padding: 20px;
   -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 
 td {
@@ -172,7 +180,13 @@ td {
 
 .modal-body {
   color: whitesmoke;
-  background: -webkit-gradient(linear, left top, left bottom, from(#330505), to(black));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#330505),
+    to(black)
+  );
   background: linear-gradient(#330505, black);
 }
 
@@ -182,7 +196,8 @@ td {
   font-size: 1.2rem;
 }
 
-form, .modal-body {
+form,
+.modal-body {
   background-color: rgba(0, 0, 0, 0.137);
   color: #eee6e6;
 }
@@ -190,5 +205,16 @@ form, .modal-body {
 .modal-body {
   font-size: 2.5rem;
   font-style: italic;
+}
+
+.container-carousel {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  justify-items: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 /*# sourceMappingURL=styles.css.map */
