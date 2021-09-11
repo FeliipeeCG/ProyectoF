@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <title>Cantinero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__h1">Bienvenidos a la Taberna de Sátanas</h1>
+      </div>
+    </header>
+    <div class="container">
+      <p>
+        Sean todos bienvenidos a su futura taberna favorita, en donde vas a
+        poder pasarte un rato para poder hablar con nosotros sobre todos los
+        temas actuales y no tan actuales (mientra sean picantes)
+      </p>
+      <h2 class="container__h2">PASEN Y PIDANLE AL CANTINERO LO QUE QUIERAN</h2>
+      <br />
+      <p>
+        Pidiendole una botella de cerveza, seras invitado charlar con nosotros
+        así podremos tomar en cuenta tu opinion en futuros strems
+      </p>
+      <p>Tomando el daiquiri podras ver los videos resubidos de twitch</p>
+      <p>Escogiendo el fernet vas poder conocer a Los Satanás</p>
+      <p>
+        Y clickando en nuestro icono de TW podras ir a nuestro canal rapidamente
+      </p>
+    </div>
+    <div class="container dropdown d-md-none">
+      <div class="container-carousel">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <a href="./pages/charlemos.html">
+                <img
+                  src="./images/botella1.png"
+                  class="d-block"
+                  width="100"
+                  alt="botella"
+                />
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <a href="./pages/ListaDeVideos.html">
+                <img
+                  src="./images/copa.png"
+                  class="d-block"
+                  width="100"
+                  alt="copa"
+                />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="./pages/Integrantes.html">
+                <img
+                  src="./images/fernet.png"
+                  class="d-block"
+                  width="100"
+                  alt="fernet"
+                />
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.twitch.tv/los_satanas"
+                target="_blank"
+                id="twitch"
+              >
+                <img
+                  src="./images/fondopioli.jpg"
+                  class="d-block"
+                  width="100"
+                  alt="canalTw"
+                />
+              </a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container d-none d-md-block"></div>
+  </body>
+</html>
