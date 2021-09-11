@@ -198,13 +198,9 @@ input {
 }
 
 .container-carousel {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  justify-items: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
