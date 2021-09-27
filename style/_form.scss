@@ -8,7 +8,11 @@ form {
   font-size: 2.5rem;
   font-style: italic;
 }
+select {
+  color: #000;
+  background-color: rgba(255, 230, 0, 0.575);
+}
 input {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 230, 0);
+  background-color: rgba(255, 230, 0, 0.575);
 }

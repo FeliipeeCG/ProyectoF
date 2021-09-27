@@ -192,9 +192,14 @@ form, .modal-body {
   font-style: italic;
 }
 
+select {
+  color: #000;
+  background-color: rgba(255, 230, 0, 0.575);
+}
+
 input {
   color: black;
-  background-color: #ffe600;
+  background-color: rgba(255, 230, 0, 0.575);
 }
 
 .container-carousel {
