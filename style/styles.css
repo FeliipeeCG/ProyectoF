@@ -1,7 +1,12 @@
 p, .p__Violeta {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #eee6e6;
   font-weight: bolder;
+}
+
+.tex_carr {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: whitesmoke;
 }
 
 .p__Violeta {
@@ -49,9 +54,10 @@ html {
   color: #eee6e6;
   font-family: "Uchen", serif;
   font-style: italic;
-  font-size: 3rem;
+  font-size: 2.1rem;
+  background-color: rgba(0, 0, 0, 0.514);
   text-align: center;
-  border: dashed #d0df0b;
+  border: ridge #d0df0b;
 }
 
 .container__h3 {

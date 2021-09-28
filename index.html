@@ -56,39 +56,55 @@
       <p>Y clickando en nuestro icono de TW podras ir a nuestro canal rapidamente.</p>
     </div>
     <div class="container dropdown d-md-none">
-      <div class="container-carousel">
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <a href="./pages/charlemos.html" >
-                <img src="./images/botella1a.png" class="d-block w-100"  alt="botella">
-              </a>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <a href="./pages/ListaDeVideos.html">
-                <img src="./images/copa1.png" class="d-block w-100" alt="copa">
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a href="./pages/Integrantes.html">
-                <img src="./images/fernet1.png" class="d-block w-100" alt="fernet">
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a href="https://www.twitch.tv/los_satanas" target="_blank" id="twitch">
-                <img src="./images/fondopioli.jpg" class="d-block w-100" alt="canalTw">
-              </a>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="./pages/charlemos.html">
+            <img src="./images/botella1a.png" class="d-block w-100" alt="charlemos">
+          </a>
+            <div class="carousel-caption dropdown d-md-none">
+                <p class="tex_carr">CHARLEMOS</p>
+                <h5 class="tex_carr">nos interesa tu opinion</h5>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <a href="./pages/ListaDeVideos.html">
+              <img src="./images/copa1.png" class="d-block w-100" alt="videos">
+            </a>
+            <div class="carousel-caption dropdown d-md-none">
+              <p class="tex_carr">VIDEOS RESUBIDOS</p>
+              <h5 class="tex_carr">videos que queres volver a ver</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./pages/Integrantes.html">
+              <img src="./images/fernet1.png" class="d-block w-100" alt="participantes">
+            </a>
+            <div class="carousel-caption dropdown d-md-none">
+              <p class="tex_carr">LOS SATANÁS</p>
+              <h5 class="tex_carr">aca podes conocernos mejor</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.twitch.tv/los_satanas" target="_blank" id="twitch">
+              <img src="./images/fondopioli.jpg" class="d-block w-100" alt="twitch">
+            </a>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div> 
     <div class="container d-none d-md-block" >

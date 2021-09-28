@@ -1,9 +1,13 @@
 $root-size: 2rem;
 //Parrafo
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: $color-primario;
   font-weight: bolder;
+}
+.tex_carr {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: whitesmoke;
 }
 //Extend y Operaciones
 .p__Violeta {
