@@ -202,6 +202,15 @@ input {
   background-color: rgba(255, 230, 0, 0.575);
 }
 
+legend, label {
+  color: white;
+  font-family: "Tourney", cursive;
+}
+
+.row {
+  font-size: 2rem;
+}
+
 .container-carousel {
   margin-left: auto;
   margin-right: auto;

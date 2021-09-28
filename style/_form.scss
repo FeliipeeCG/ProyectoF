@@ -16,3 +16,13 @@ input {
   color: rgb(0, 0, 0);
   background-color: rgba(255, 230, 0, 0.575);
 }
+legend {
+  color: rgb(255, 255, 255);
+  font-family: "Tourney", cursive;
+}
+label {
+  @extend legend;
+}
+.row {
+  font-size: 2rem;
+}
